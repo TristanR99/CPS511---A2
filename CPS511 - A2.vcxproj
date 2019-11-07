@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Documents\CPS511\CubeMesh.c" />
+    <ClCompile Include="..\..\..\Documents\CPS511\main.c" />
+    <ClCompile Include="..\..\..\Documents\CPS511\QuadMesh.c" />
+    <ClCompile Include="..\..\..\Documents\CPS511\Vector3D.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Documents\CPS511\CubeMesh.h" />
+    <ClInclude Include="..\..\..\Documents\CPS511\QuadMesh.h" />
+    <ClInclude Include="..\..\..\Documents\CPS511\Vector3D.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{563A34EF-8D5C-4C82-9954-B54343B86CAA}</ProjectGuid>
